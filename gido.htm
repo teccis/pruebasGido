@@ -16,8 +16,10 @@
 
    <div ng-controller="NameCalculatorController">
     Type your name here:
-       <div><input type="text"></div>
-       <div>Total numeric value of person's name is: </div>
+       <div><input type="text" ng-name="name"
+        ng-keyup="displayNumeric();"></div>
+       <div>Total numeric value of person's name is:
+           {{totalValue}} </div>
    </div>
    <h3>Hola amigos, este será la página GIDOSHOP</h3> 
    <img src="gido.jpg" alt="Girl in a jacket" width="500" height="600">
