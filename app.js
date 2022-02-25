@@ -1,7 +1,7 @@
 (function(){
     'use strict';
 
-    angular.mode('NameCalculator',[])
+    angular.module('NameCalculator',[])
 
     .controller('NameCalculatorController', function($scope){
         $scope.name="";
