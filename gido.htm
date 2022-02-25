@@ -2,13 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style> body{font-size: 1.3em;}</style>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GIDOSHOP</title>
 </head>
-<body>
+<body ng-app="NameCalculator">
 
    <H1>Welcome</H1>
+
+   <div ng-controller="NameCalculatorController">
+    Type your name here:
+       <div><input type="text"></div>
+       <div>Total numeric value of person's name is: </div>
+   </div>
    <h3>Hola amigos, este será la página GIDOSHOP</h3> 
    <img src="gido.jpg" alt="Girl in a jacket" width="500" height="600">
 </body>
