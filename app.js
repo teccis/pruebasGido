@@ -20,7 +20,6 @@
                 totalStringValue += string.charCodeAt(i);
             }
             return totalStringValue; 
-
         }
     });
 
